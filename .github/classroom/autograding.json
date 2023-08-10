@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Server Test 1",
+      "setup": "sudo -H pip3 install pytest mocket",
+      "run": "python src/server/server_serversocket.py & sleep 1 && pytest tests/servertest1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Server Test 2",
+      "setup": "sudo -H pip3 install pytest mocket",
+      "run": "python src/server/server_serversocket.py & sleep 1 && pytest tests/servertest2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Server Test 3",
+      "setup": "sudo -H pip3 install pytest mocket",
+      "run": "python src/server/server_serversocket.py & sleep 1 && pytest tests/servertest3.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 40
+    },
+    {
+      "name": "Server Test 4",
+      "setup": "sudo -H pip3 install pytest mocket",
+      "run": "python src/server/server_serversocket.py & sleep 1 && pytest tests/servertest4.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Client Test 1",
+      "setup": "sudo -H pip3 install pytest mocket",
+      "run": "pytest tests/clienttest1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Client Test 2",
+      "setup": "sudo -H pip3 install pytest mocket",
+      "run": "pytest tests/clienttest2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 30
+    }
+  ]
+}

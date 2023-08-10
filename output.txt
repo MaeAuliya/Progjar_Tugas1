@@ -1,0 +1,8 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.2, pytest-7.2.2, pluggy-1.0.0
+rootdir: /Volumes/T7 Shield/Dokumen/Ngasdos/network-programming/sample
+collected 5 items
+
+tests/test.py .....                                                      [100%]
+
+============================== 5 passed in 1.39s ===============================
